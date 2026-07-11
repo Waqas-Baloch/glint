@@ -1,0 +1,244 @@
+{
+  "root": "/Users/waqasbaloch/Desktop/Squash",
+  "createdAt": "2026-07-11T11:59:54.677Z",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 5791,
+      "lines": 102,
+      "hash": "3a91cb8f500f19afacc4398b1aa4b325b39a8bfd",
+      "ext": ".md"
+    },
+    {
+      "path": "README.md",
+      "size": 3122,
+      "lines": 88,
+      "hash": "b8c673972a8907244fab4e1082c7b6de4c4d1a8d",
+      "ext": ".md"
+    },
+    {
+      "path": "package.json",
+      "size": 934,
+      "lines": 44,
+      "hash": "c8be0f95b926691f26038817344de9aff97d5a68",
+      "ext": ".json"
+    },
+    {
+      "path": "src/claude/claudeCode.ts",
+      "size": 3125,
+      "lines": 82,
+      "hash": "e085b762d3ecb8a4916259ae9b0a47fbb8ca7d53",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/claude/prompts.ts",
+      "size": 1274,
+      "lines": 15,
+      "hash": "73d85eaac2de6087893ad2773e9b91a5bd3989dd",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/claude/runner.ts",
+      "size": 3726,
+      "lines": 103,
+      "hash": "c930e28ab8d189d6f1f759cbd0205a2c022e5df7",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/claude/tools.ts",
+      "size": 7631,
+      "lines": 210,
+      "hash": "8e28fb8d0e1ec60dd23a364fd1a09066e2d781e9",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/cli.ts",
+      "size": 1352,
+      "lines": 43,
+      "hash": "b5c7de5ee9dd310501ed56a318260e4d51a08009",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/commands/connect.ts",
+      "size": 3841,
+      "lines": 116,
+      "hash": "b7423397c390a51c679afe7c7b45ca393d16b501",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/commands/plan.ts",
+      "size": 2073,
+      "lines": 57,
+      "hash": "2ef1b2a87954b366ff34214dc847ca016de3e896",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/commands/revert.ts",
+      "size": 1671,
+      "lines": 49,
+      "hash": "e55a4b65529d2feff8103525fdcd947ce637c393",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/commands/run.ts",
+      "size": 13183,
+      "lines": 392,
+      "hash": "01641828858e1ffec89865b9a7afe8cb5ca6cca6",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/commands/shared.ts",
+      "size": 2514,
+      "lines": 79,
+      "hash": "6cfdaa881ad41b4f518456d6fdda50015ecf58f8",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/core/indexer.ts",
+      "size": 2580,
+      "lines": 103,
+      "hash": "726b31fb1213b663ed8b8b4827ed51347c1ab3a5",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/core/manifest.ts",
+      "size": 4703,
+      "lines": 136,
+      "hash": "35a770ffa949f2cde76c82a924533ddc27cf068b",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/core/mapper.ts",
+      "size": 4518,
+      "lines": 141,
+      "hash": "72374ed8741fb3536a7f57f7f390d3a06b9338cc",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/core/selector.ts",
+      "size": 6482,
+      "lines": 188,
+      "hash": "a0c2e5733ff97fff5ceeb27503b9c23b9b5e6bde",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/report/box.ts",
+      "size": 1568,
+      "lines": 45,
+      "hash": "84d63b1bcc2c613f9450f0fc40394990b14fb502",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/report/diff.ts",
+      "size": 1178,
+      "lines": 42,
+      "hash": "e3858996aeb34fde8cc9017601e15d07dc572f73",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/util/config.ts",
+      "size": 813,
+      "lines": 28,
+      "hash": "7e4f1bd3b24593623f0d0a284ab50ff8a50814b8",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/util/globalConfig.ts",
+      "size": 2105,
+      "lines": 65,
+      "hash": "8d386b891e3be154ae9e8ffff7b3363f3917dd7f",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/util/logger.ts",
+      "size": 339,
+      "lines": 10,
+      "hash": "8272d79cab37018acfa212e20120128a7b8dae52",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/util/tokens.ts",
+      "size": 433,
+      "lines": 11,
+      "hash": "590c8266983aea31481ba5f2c03918fe32323fab",
+      "ext": ".ts"
+    },
+    {
+      "path": "src/validate/validator.ts",
+      "size": 2518,
+      "lines": 91,
+      "hash": "9e7d978f7b783d03b63575711b1ed00c992c4a89",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/box.test.ts",
+      "size": 1382,
+      "lines": 35,
+      "hash": "3b3b31a8a5dcbedfbd408e3380885ed8e04e873c",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/claudeCode.test.ts",
+      "size": 2356,
+      "lines": 60,
+      "hash": "79a20226e358ad9dde924da135c396e58548ee61",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/globalConfig.test.ts",
+      "size": 2620,
+      "lines": 75,
+      "hash": "ef3d7d9d5138be949cb0b524834811e29f280755",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/indexer.test.ts",
+      "size": 2181,
+      "lines": 55,
+      "hash": "e6350aeddd14b585582c25e6c558a607efa90c65",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/manifest.test.ts",
+      "size": 2277,
+      "lines": 57,
+      "hash": "e68d55eefa9537a6fb2741258df75a25078137b3",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/mapper.test.ts",
+      "size": 2334,
+      "lines": 69,
+      "hash": "e3db6d3aa3e5e9aeaca55aab215135359116db28",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/selector.test.ts",
+      "size": 2753,
+      "lines": 74,
+      "hash": "62e503a902d261b552c731165580f054cbb392fb",
+      "ext": ".ts"
+    },
+    {
+      "path": "test/tools.test.ts",
+      "size": 3364,
+      "lines": 82,
+      "hash": "5efadccd62e759e726a87ca21a7749e02604b579",
+      "ext": ".ts"
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 310,
+      "lines": 15,
+      "hash": "c66665bee9903f77023c33d3e20a89d5546b48a9",
+      "ext": ".json"
+    },
+    {
+      "path": "tsup.config.ts",
+      "size": 151,
+      "lines": 9,
+      "hash": "6c3883eb4b0d95e011d92ff8aa80d55e4509d5ef",
+      "ext": ".ts"
+    }
+  ]
+}
