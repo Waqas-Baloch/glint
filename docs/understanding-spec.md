@@ -41,30 +41,57 @@ compute directly.
 The band is printed on every run (`printBand`) so the safety decision is
 interpretable, per the spec's color-coded-bands requirement.
 
-## Deterministic proxies (where we diverge from the spec)
+## Semantic element graph (the foundation)
 
-- **No ML intent parser.** The intent frame is keyword/regex. It's tuned for
-  the MVP surface (React/Next/HTML/CSS UI edits) and errs toward classifying
-  destructive verbs correctly, since that's what gates Red.
-- **Shared-component detection ≈ duplicate-text + `crossFile`.** The spec wants
-  a detector that knows one component definition renders many instances. Glint
-  approximates "broad impact" with the duplicate copy spanning multiple files
-  (`crossFile`) or multiple landmarks (`crossSection`). A true definition→
-  instances graph would need symbol-level resolution (a language server).
+Detection no longer reads code as text. `src/core/semantic/` parses real
+structure into an element graph:
+
+- **HTML → parse5** (`html.ts`): DOM walk producing elements with ancestry,
+  enclosing landmark, static text, attributes, and source line numbers.
+- **JSX/TSX → ts-morph** (`jsx.ts`): JSX elements and self-closing tags with
+  tag/component role, static attribute values, static vs. dynamic (`{…}`) text,
+  ancestry/landmark, and two blast-radius facts — `inLoop` (rendered inside
+  `.map`/`.forEach`/`.flatMap`) and the component name (so instances resolve to
+  a shared definition).
+- `graph.ts` merges both and indexes component definitions and their
+  instantiation sites.
+
+Because this is AST/DOM-derived, multi-line elements, React components, and
+list rendering are represented faithfully — the class of bug that regex kept
+reintroducing is gone by construction.
+
+## Deterministic proxies (where we still diverge from the spec)
+
+- **No ML intent parser.** The intent frame is keyword/regex, tuned for the
+  React/Next/HTML/CSS surface and biased toward classifying destructive verbs
+  correctly (that's what gates Red).
+- **Shared-component detection is real now.** `sharedComponent` is true when the
+  duplicate instances are the same component role from the graph; `inLoop` marks
+  list-rendered targets. Both feed the broad-impact → Red decision. (Full
+  cross-module definition resolution via a type-checker is still future work;
+  today it keys on component name within the scanned files.)
 - **Cross-breakpoint detector: not implemented.** Responsive desktop/mobile
-  variant analysis is out of MVP scope.
-- **Section-collision** is covered by the duplicate detector's `crossSection`
-  flag and the file-scope question, not a separate route-level model.
-- **Evaluation simulator: not built.** The spec itself lists the interactive
-  simulator as the "next build step"; it's deferred until the band thresholds
-  need tuning against a labelled task library.
+  variant analysis is out of scope.
+- **Calibrated confidence: partial.** Bands are rule-based over graph facts; a
+  learned/calibrated confidence model is the next step, and the eval harness is
+  the instrument that would calibrate it.
+
+## Measuring accuracy
+
+`test/eval.test.ts` is the evaluation harness: a labeled case library (seeded
+with every real failure) scored for band accuracy and the spec's over-ask /
+under-ask / **destructive-miss** rates. `destructive-miss` is asserted `== 0` —
+the precision-via-abstention guarantee (never silently make a broad destructive
+edit). Grow accuracy by adding cases here first, then fixing the engine.
 
 ## Where behavior lives
 
-- `src/core/understanding.ts` — pure/offline: intent frame, detectors,
-  resolution confidence, band classifier. No prompts.
+- `src/core/semantic/` — AST/DOM element graph. Pure/offline.
+- `src/core/understanding.ts` — intent frame, graph-backed detectors, band
+  classifier. No prompts.
 - `src/core/clarify.ts` — composes interactive questions from the report
   (`assessTask`, `buildQuestions`, `runQuestions`) and compiles answers back
   into the task.
 - `src/commands/run.ts` — enforces the band: prints it, blocks Red in
   non-interactive mode, asks Orange/Red, injects the Yellow style note.
+- `test/eval.test.ts` — the accuracy harness and regression gate.
