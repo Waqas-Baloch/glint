@@ -92,12 +92,12 @@ engines your page doesn't satisfy the query.
 **Primary CTA:** `Install — it's free` → install section
 **Secondary CTA:** `View on GitHub` → repo
 
-**[VERIFY]** Install command. The published npm package is currently
-`getglint`, exposing the `glint` command. Do **not** ship an install snippet
-using the new name until the renamed package is actually published — a landing
-page whose main call to action fails on paste is worse than no landing page.
-Either publish the rename first, or label the block "coming as `superterminal`;
-today: `npm install -g getglint`".
+**[VERIFY]** Install command. The package is `super-t` and the command is
+`super-t` — note that npm refused `superterminal` as too similar to the existing
+`super-terminal` package. The brand stays "Super Terminal" everywhere in prose;
+only the install and command strings use `super-t`. Do not ship the page until
+`super-t` is actually published, because a call to action that fails on paste is
+worse than no landing page.
 
 **Hero visual:** a real terminal recording, not a mockup dashboard. Show one
 `flow` command routing steps across two agents. Real output is the proof; an
@@ -142,7 +142,7 @@ searching for it.
 ### Your rules follow you to every agent
 
 Super Terminal reads the instruction files you already have — `CLAUDE.md`,
-`.cursorrules`, `AGENTS.md`, `.glint/rules.md`, `context.md`, and skill files —
+`.cursorrules`, `AGENTS.md`, `.super-t/rules.md`, `context.md`, and skill files —
 and applies all of them to whichever agent runs the task. Write a standard once
 and it holds in Claude Code, in Cursor, and in Codex. Drop a `context.md` in
 your project and every agent gets the same background.
@@ -157,9 +157,9 @@ Telling an agent what not to do is hope. Checking afterwards is control.
 ### It chains agents into one workflow
 
 ```bash
-superterminal flow "audit auth with claude,
-                    then fix the findings with cursor,
-                    then review the diff with codex"
+super-t flow "audit auth with claude,
+              then fix the findings with cursor,
+              then review the diff with codex"
 ```
 
 One command. Each step runs on the agent you named, and each step's output is
@@ -271,9 +271,9 @@ Being caught omitting it costs more than disclosing it.]**
 **H2** — Install
 
 ```bash
-npm install -g superterminal    # [VERIFY — package not yet published under this name]
-superterminal connect           # one-time: pick your agent
-superterminal run "add a loading state to the checkout button"
+npm install -g super-t   # [VERIFY — publish before the page goes live]
+super-t connect          # one-time: pick your agent
+super-t run "add a loading state to the checkout button"
 ```
 
 Requires Node.js 18+. Works on macOS, Linux, and Windows. **[VERIFY the Windows
@@ -289,7 +289,7 @@ support issues and bad first impressions.]**
 Super Terminal is free, installs in one command, and works with the AI agent you
 already use.
 
-`npm install -g superterminal` · View on GitHub
+`npm install -g super-t` · View on GitHub
 
 ---
 
