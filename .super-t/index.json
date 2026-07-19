@@ -1,0 +1,846 @@
+{
+  "root": "/Users/waqasbaloch/Desktop/Squash",
+  "createdAt": "2026-07-19T18:07:06.175Z",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 5778,
+      "lines": 102,
+      "hash": "1f4ecedb80c30b82cea1cedf87daa5b498832aa0",
+      "ext": ".md",
+      "mtimeMs": 1783792966961.2048
+    },
+    {
+      "path": "README.md",
+      "size": 4460,
+      "lines": 110,
+      "hash": "5ea956606ccbd7e689c9d88282bda4dfaa522f4d",
+      "ext": ".md",
+      "mtimeMs": 1784483212008.2358
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 3181,
+      "lines": 63,
+      "hash": "d795e1c53c6c96ba98e6c5719e710e28e5f11f1e",
+      "ext": ".md",
+      "mtimeMs": 1783870396322.9465
+    },
+    {
+      "path": "docs/landing-brief.md",
+      "size": 5125,
+      "lines": 111,
+      "hash": "5dcb55a188738f1e8a6bf731519478f5a80ab132",
+      "ext": ".md",
+      "mtimeMs": 1784464245206.1738
+    },
+    {
+      "path": "docs/landing-copy.md",
+      "size": 19860,
+      "lines": 442,
+      "hash": "7aba2400e0b50ebcd951c3014b5330afd7df5e32",
+      "ext": ".md",
+      "mtimeMs": 1784483228438.612
+    },
+    {
+      "path": "docs/ranking-spec.md",
+      "size": 6093,
+      "lines": 85,
+      "hash": "c2d8dd71ee52fccaad6668e0c4da82ff1823e668",
+      "ext": ".md",
+      "mtimeMs": 1783962397528.3481
+    },
+    {
+      "path": "docs/understanding-spec.md",
+      "size": 5851,
+      "lines": 98,
+      "hash": "a67b3547a506c1f7d73aba98ebd6d1fd624d4f28",
+      "ext": ".md",
+      "mtimeMs": 1784086815019.8933
+    },
+    {
+      "path": "package.json",
+      "size": 1583,
+      "lines": 68,
+      "hash": "983300221f541b72f3115851e0a4cdf5abc21582",
+      "ext": ".json",
+      "mtimeMs": 1784483212007.8074
+    },
+    {
+      "path": "src/claude/agentCli.ts",
+      "size": 16558,
+      "lines": 411,
+      "hash": "d94b58cdd86255cb3885eaefe0687cbfd6e2be0d",
+      "ext": ".ts",
+      "mtimeMs": 1784482659112.2036
+    },
+    {
+      "path": "src/claude/prompts.ts",
+      "size": 1739,
+      "lines": 16,
+      "hash": "0d5d92c24774c787ad4ac5c88124a781721561a6",
+      "ext": ".ts",
+      "mtimeMs": 1784482659111.628
+    },
+    {
+      "path": "src/claude/runner.ts",
+      "size": 4200,
+      "lines": 113,
+      "hash": "cfb14eb0f6a6df94e2fb1b29ee3fd982a83b96f0",
+      "ext": ".ts",
+      "mtimeMs": 1784356157766.0837
+    },
+    {
+      "path": "src/claude/tools.ts",
+      "size": 7683,
+      "lines": 211,
+      "hash": "a495a16c5ac65654dd0c13ad42724a666972b85b",
+      "ext": ".ts",
+      "mtimeMs": 1784482516079.7847
+    },
+    {
+      "path": "src/cli.ts",
+      "size": 4425,
+      "lines": 117,
+      "hash": "ddeefedbf089f1008a8ac8de2602c9dd8e854c12",
+      "ext": ".ts",
+      "mtimeMs": 1784482616304.6445
+    },
+    {
+      "path": "src/commands/compare.ts",
+      "size": 8610,
+      "lines": 213,
+      "hash": "f88a67b5970ae08c734feaa93a36de58768946b1",
+      "ext": ".ts",
+      "mtimeMs": 1784482528798.872
+    },
+    {
+      "path": "src/commands/connect.ts",
+      "size": 1244,
+      "lines": 37,
+      "hash": "e188d3b694a7429b75d1069bf94c54c934f9fc9a",
+      "ext": ".ts",
+      "mtimeMs": 1784482078077.0496
+    },
+    {
+      "path": "src/commands/flow.ts",
+      "size": 8650,
+      "lines": 212,
+      "hash": "2b2d5d6264bbace44c3383ae2745ba5fedd6c85a",
+      "ext": ".ts",
+      "mtimeMs": 1784482078077.3352
+    },
+    {
+      "path": "src/commands/forget.ts",
+      "size": 456,
+      "lines": 13,
+      "hash": "8e482f2b8a89a3eebfbc5cc253b56f7062d353e6",
+      "ext": ".ts",
+      "mtimeMs": 1784482676014.0903
+    },
+    {
+      "path": "src/commands/init.ts",
+      "size": 3531,
+      "lines": 84,
+      "hash": "76da5834487d52cb6b3b86fc52956e1fe808462a",
+      "ext": ".ts",
+      "mtimeMs": 1784482516079.4092
+    },
+    {
+      "path": "src/commands/plan.ts",
+      "size": 2923,
+      "lines": 80,
+      "hash": "4e3fc06e5b62717df72d096f05f824610d8fc624",
+      "ext": ".ts",
+      "mtimeMs": 1784482078077.662
+    },
+    {
+      "path": "src/commands/provider.ts",
+      "size": 6826,
+      "lines": 186,
+      "hash": "62100d75eaefbe5185230c54c11666fe06510da7",
+      "ext": ".ts",
+      "mtimeMs": 1784482659111.9214
+    },
+    {
+      "path": "src/commands/revert.ts",
+      "size": 1728,
+      "lines": 46,
+      "hash": "2d63be37d0d5dcc86a6782a4dba798f92cbc3fd3",
+      "ext": ".ts",
+      "mtimeMs": 1784482516079.0835
+    },
+    {
+      "path": "src/commands/run.ts",
+      "size": 40116,
+      "lines": 999,
+      "hash": "4a9b9a088e7f5c20b75bfb40644d72bcce0766b0",
+      "ext": ".ts",
+      "mtimeMs": 1784482676014.4294
+    },
+    {
+      "path": "src/commands/search.ts",
+      "size": 4814,
+      "lines": 144,
+      "hash": "da93272589248e4694306bc7d00b13fd9ab2f99e",
+      "ext": ".ts",
+      "mtimeMs": 1784482616309.78
+    },
+    {
+      "path": "src/commands/shared.ts",
+      "size": 4342,
+      "lines": 106,
+      "hash": "049f4f6afdde2a195ee0d45e0c3d63934cf679e0",
+      "ext": ".ts",
+      "mtimeMs": 1784361380787.706
+    },
+    {
+      "path": "src/commands/switch.ts",
+      "size": 1348,
+      "lines": 43,
+      "hash": "7e312e1a65e28e6582aff2fe89e2ed69d2243c19",
+      "ext": ".ts",
+      "mtimeMs": 1784482078079.3645
+    },
+    {
+      "path": "src/commands/telemetry.ts",
+      "size": 1436,
+      "lines": 38,
+      "hash": "054e45a7fea0db79b3208c5ed0885098630cc184",
+      "ext": ".ts",
+      "mtimeMs": 1784482078079.654
+    },
+    {
+      "path": "src/core/clarify.ts",
+      "size": 17890,
+      "lines": 426,
+      "hash": "e95e7dacfa32c653ddc7e39400a29c9d1c88beba",
+      "ext": ".ts",
+      "mtimeMs": 1784482616306.661
+    },
+    {
+      "path": "src/core/flow.ts",
+      "size": 4411,
+      "lines": 112,
+      "hash": "363247f9e31cc1ca1ee06b988a511e3ac04b35d2",
+      "ext": ".ts",
+      "mtimeMs": 1784482078080.4788
+    },
+    {
+      "path": "src/core/focus.ts",
+      "size": 3435,
+      "lines": 104,
+      "hash": "7869eaa93a0f82567214fdc80b22b3eef9e35102",
+      "ext": ".ts",
+      "mtimeMs": 1783792966924.4946
+    },
+    {
+      "path": "src/core/indexer.ts",
+      "size": 2764,
+      "lines": 107,
+      "hash": "5988b77eac3cb5be53f79ef516ec6fd56c68b4a4",
+      "ext": ".ts",
+      "mtimeMs": 1784482528787.033
+    },
+    {
+      "path": "src/core/manifest.ts",
+      "size": 10068,
+      "lines": 219,
+      "hash": "7ebe9b5d0dbde30fccc929911cfee211c44d8279",
+      "ext": ".ts",
+      "mtimeMs": 1784482616306.0332
+    },
+    {
+      "path": "src/core/mapper.ts",
+      "size": 7297,
+      "lines": 198,
+      "hash": "eb256c4c3e3c700939f21c63b58dccb6f23e70bc",
+      "ext": ".ts",
+      "mtimeMs": 1783962032732.5894
+    },
+    {
+      "path": "src/core/memory.ts",
+      "size": 2297,
+      "lines": 63,
+      "hash": "c0599808c8e5158a1b9ed6f1f42aaf8d1c0018ad",
+      "ext": ".ts",
+      "mtimeMs": 1784482516078.843
+    },
+    {
+      "path": "src/core/mentions.ts",
+      "size": 3256,
+      "lines": 89,
+      "hash": "0e9758a06d6d6e818ca7bf1c21f56388143225ee",
+      "ext": ".ts",
+      "mtimeMs": 1784482616305.2441
+    },
+    {
+      "path": "src/core/preflight.ts",
+      "size": 2698,
+      "lines": 62,
+      "hash": "73ede66f5c9f832fbf7554cbfb04b7fa69b357ee",
+      "ext": ".ts",
+      "mtimeMs": 1784482616305.109
+    },
+    {
+      "path": "src/core/ranking/anchors.ts",
+      "size": 4266,
+      "lines": 91,
+      "hash": "4e1175c9926cae5653c3923bb67a4a68d70d1649",
+      "ext": ".ts",
+      "mtimeMs": 1783962127810.2825
+    },
+    {
+      "path": "src/core/ranking/budget.ts",
+      "size": 4231,
+      "lines": 100,
+      "hash": "6d3459f7c76f802186a717a5c8d1f701a942d59c",
+      "ext": ".ts",
+      "mtimeMs": 1783962283440.6538
+    },
+    {
+      "path": "src/core/ranking/gitSignals.ts",
+      "size": 2646,
+      "lines": 63,
+      "hash": "4a3cb9cb44cb17e042bcfa4240b99797b9034f79",
+      "ext": ".ts",
+      "mtimeMs": 1784482616307.1733
+    },
+    {
+      "path": "src/core/ranking/rank.ts",
+      "size": 10666,
+      "lines": 243,
+      "hash": "28a8d39eef18e14d14153477cecc535b9f95de84",
+      "ext": ".ts",
+      "mtimeMs": 1784482616306.9192
+    },
+    {
+      "path": "src/core/ranking/signals.ts",
+      "size": 8623,
+      "lines": 193,
+      "hash": "5cb2e1354b9960d4e6dfb205b0d278d6f131d178",
+      "ext": ".ts",
+      "mtimeMs": 1783961794179.0403
+    },
+    {
+      "path": "src/core/ranking/taskProfile.ts",
+      "size": 4294,
+      "lines": 83,
+      "hash": "40dd50c6f3bf14991e1817d64304d53974b8234b",
+      "ext": ".ts",
+      "mtimeMs": 1783960979562.5437
+    },
+    {
+      "path": "src/core/ranking/types.ts",
+      "size": 1955,
+      "lines": 69,
+      "hash": "563609f0124c629e21e92973c004ddac8643c3e5",
+      "ext": ".ts",
+      "mtimeMs": 1784482616307.3857
+    },
+    {
+      "path": "src/core/ranking/weights.ts",
+      "size": 2402,
+      "lines": 72,
+      "hash": "82bc4c350f4b7bb48ac4624d1a11b1ef6c26b474",
+      "ext": ".ts",
+      "mtimeMs": 1783960996621.3784
+    },
+    {
+      "path": "src/core/rules.ts",
+      "size": 5307,
+      "lines": 138,
+      "hash": "354e1f66e33118ab1d8e7ad2eb71cc059ef73ad0",
+      "ext": ".ts",
+      "mtimeMs": 1784482516077.8213
+    },
+    {
+      "path": "src/core/selector.ts",
+      "size": 3045,
+      "lines": 90,
+      "hash": "4d00fcb7ed2da43b6136c8d319b5c2c95b11bbb5",
+      "ext": ".ts",
+      "mtimeMs": 1784482616305.7234
+    },
+    {
+      "path": "src/core/semantic/diff.ts",
+      "size": 5942,
+      "lines": 138,
+      "hash": "d64e142df5787e494072fd871606a54450b1c4d3",
+      "ext": ".ts",
+      "mtimeMs": 1784451248530.1929
+    },
+    {
+      "path": "src/core/semantic/graph.ts",
+      "size": 1512,
+      "lines": 44,
+      "hash": "1463925389e79ccaa0a2d0f83149c08f32cc374e",
+      "ext": ".ts",
+      "mtimeMs": 1784132114617.1936
+    },
+    {
+      "path": "src/core/semantic/html.ts",
+      "size": 2508,
+      "lines": 73,
+      "hash": "5dd346e10aeed9516ae81f4638d8c1ad233b0e1c",
+      "ext": ".ts",
+      "mtimeMs": 1784087615012.257
+    },
+    {
+      "path": "src/core/semantic/jsx.ts",
+      "size": 5749,
+      "lines": 149,
+      "hash": "35c6d9910e132a69266534608b97e3f004cd03a3",
+      "ext": ".ts",
+      "mtimeMs": 1784087620132.2466
+    },
+    {
+      "path": "src/core/semantic/symbols.ts",
+      "size": 5036,
+      "lines": 150,
+      "hash": "74b23ec0718fbbcbda98ef2246b31e5d6a01e030",
+      "ext": ".ts",
+      "mtimeMs": 1784306297631.602
+    },
+    {
+      "path": "src/core/semantic/types.ts",
+      "size": 3535,
+      "lines": 94,
+      "hash": "49d8642d8d0303adc50d39d1f53e13282474d152",
+      "ext": ".ts",
+      "mtimeMs": 1784306267088.9316
+    },
+    {
+      "path": "src/core/session.ts",
+      "size": 1892,
+      "lines": 48,
+      "hash": "a33d2e9b5c157e47d20fdaaff203fd9341972e7f",
+      "ext": ".ts",
+      "mtimeMs": 1783792966925.897
+    },
+    {
+      "path": "src/core/skills.ts",
+      "size": 4297,
+      "lines": 111,
+      "hash": "57094aaf369c47fe50c1f7969b2742d14361d73f",
+      "ext": ".ts",
+      "mtimeMs": 1784482616306.4968
+    },
+    {
+      "path": "src/core/surgicalRevert.ts",
+      "size": 2231,
+      "lines": 61,
+      "hash": "4566b25975bc40fb2e69a023bf510c876196805b",
+      "ext": ".ts",
+      "mtimeMs": 1784482078082.665
+    },
+    {
+      "path": "src/core/terms.ts",
+      "size": 2399,
+      "lines": 62,
+      "hash": "b6c03dd8c4ad8424ac8e3f6ee99dea0bb0cc0b29",
+      "ext": ".ts",
+      "mtimeMs": 1783960911536.125
+    },
+    {
+      "path": "src/core/understanding.ts",
+      "size": 27556,
+      "lines": 613,
+      "hash": "161549df5a1216a04ec71c2b4708e4cb9ed5ea24",
+      "ext": ".ts",
+      "mtimeMs": 1784482616306.3906
+    },
+    {
+      "path": "src/report/banner.ts",
+      "size": 10140,
+      "lines": 280,
+      "hash": "a9348e78323cc1c6aa6908319f0fee92a85edefc",
+      "ext": ".ts",
+      "mtimeMs": 1784482078083.5017
+    },
+    {
+      "path": "src/report/box.ts",
+      "size": 3096,
+      "lines": 88,
+      "hash": "6fa2f58380e5306bab861f2c13964e905999ea84",
+      "ext": ".ts",
+      "mtimeMs": 1784356830157.2078
+    },
+    {
+      "path": "src/report/diff.ts",
+      "size": 1178,
+      "lines": 42,
+      "hash": "e3858996aeb34fde8cc9017601e15d07dc572f73",
+      "ext": ".ts",
+      "mtimeMs": 1783792966939.7112
+    },
+    {
+      "path": "src/report/sessionInput.ts",
+      "size": 8996,
+      "lines": 246,
+      "hash": "a7ce9846eefaaac4e9eb032c112a3aacd45b893b",
+      "ext": ".ts",
+      "mtimeMs": 1784482616309.2788
+    },
+    {
+      "path": "src/report/spinner.ts",
+      "size": 4520,
+      "lines": 118,
+      "hash": "82bf87f671d3f3b153554af2f98500f4c6f2208c",
+      "ext": ".ts",
+      "mtimeMs": 1784482659112.058
+    },
+    {
+      "path": "src/report/status.ts",
+      "size": 1958,
+      "lines": 70,
+      "hash": "8925fc0308cf46e0409a29ca7aaf1c4468eac8df",
+      "ext": ".ts",
+      "mtimeMs": 1784359397502.1174
+    },
+    {
+      "path": "src/report/theme.ts",
+      "size": 2227,
+      "lines": 53,
+      "hash": "1cb07e901821afa0a82e75c955b4a1b7ee2a36f3",
+      "ext": ".ts",
+      "mtimeMs": 1784482616309.5505
+    },
+    {
+      "path": "src/util/config.ts",
+      "size": 933,
+      "lines": 30,
+      "hash": "97b9f2e4466cc357ac446082981c1392ffea2a7d",
+      "ext": ".ts",
+      "mtimeMs": 1784482638532.5454
+    },
+    {
+      "path": "src/util/editor.ts",
+      "size": 1058,
+      "lines": 26,
+      "hash": "383bd3795900e4f3a9ac22d73915284092d29729",
+      "ext": ".ts",
+      "mtimeMs": 1784482616308.0845
+    },
+    {
+      "path": "src/util/globalConfig.ts",
+      "size": 2417,
+      "lines": 72,
+      "hash": "eb98652b9557a45bb07fdb4bafd0630749f6053f",
+      "ext": ".ts",
+      "mtimeMs": 1784482516076.4702
+    },
+    {
+      "path": "src/util/logger.ts",
+      "size": 339,
+      "lines": 10,
+      "hash": "8272d79cab37018acfa212e20120128a7b8dae52",
+      "ext": ".ts",
+      "mtimeMs": 1783792966933.5425
+    },
+    {
+      "path": "src/util/paths.ts",
+      "size": 864,
+      "lines": 26,
+      "hash": "8ff9aa001f11590000a14119e8a3dccb9534db7f",
+      "ext": ".ts",
+      "mtimeMs": 1784482488892.443
+    },
+    {
+      "path": "src/util/telemetry.ts",
+      "size": 9354,
+      "lines": 243,
+      "hash": "a8dbc6e702d8fc135686b8d34231698bb81a1b81",
+      "ext": ".ts",
+      "mtimeMs": 1784482659112.3286
+    },
+    {
+      "path": "src/util/tokens.ts",
+      "size": 310,
+      "lines": 8,
+      "hash": "0c09093cb9c217458cbe408ac0663bdaa605dd8d",
+      "ext": ".ts",
+      "mtimeMs": 1784456645500.9072
+    },
+    {
+      "path": "src/validate/validator.ts",
+      "size": 2518,
+      "lines": 91,
+      "hash": "9e7d978f7b783d03b63575711b1ed00c992c4a89",
+      "ext": ".ts",
+      "mtimeMs": 1783792966923.8594
+    },
+    {
+      "path": "src/version.ts",
+      "size": 155,
+      "lines": 5,
+      "hash": "91440479a93a0a36dc8067ff4c0b2a88a020fdfb",
+      "ext": ".ts",
+      "mtimeMs": 1783836316863.3975
+    },
+    {
+      "path": "test/agentCli.test.ts",
+      "size": 10084,
+      "lines": 232,
+      "hash": "d68947b9b07373d737c1770d05921ccce9827dbc",
+      "ext": ".ts",
+      "mtimeMs": 1784482616313.8535
+    },
+    {
+      "path": "test/boilerplate.test.ts",
+      "size": 4540,
+      "lines": 127,
+      "hash": "a4e7a9c5109ad271115f61ca46d2cad981a8622e",
+      "ext": ".ts",
+      "mtimeMs": 1784482616313.521
+    },
+    {
+      "path": "test/box.test.ts",
+      "size": 2159,
+      "lines": 56,
+      "hash": "69290d709e0cb24fc51ea24e1305e519af881e56",
+      "ext": ".ts",
+      "mtimeMs": 1784356264922.0056
+    },
+    {
+      "path": "test/clarify.test.ts",
+      "size": 13250,
+      "lines": 292,
+      "hash": "25a1e6b3bc1321d6885ba5f8d6a8db672bc302ea",
+      "ext": ".ts",
+      "mtimeMs": 1784482676014.6196
+    },
+    {
+      "path": "test/compare.test.ts",
+      "size": 2322,
+      "lines": 48,
+      "hash": "601eb02d43502666ee41d8485575b36a4deb88b5",
+      "ext": ".ts",
+      "mtimeMs": 1784482616311.1523
+    },
+    {
+      "path": "test/diff.test.ts",
+      "size": 3302,
+      "lines": 65,
+      "hash": "9534533c14d3b4f7b1528935b1bca85fe14941c7",
+      "ext": ".ts",
+      "mtimeMs": 1784451202431.1384
+    },
+    {
+      "path": "test/eval.test.ts",
+      "size": 13655,
+      "lines": 349,
+      "hash": "86588cacb67fd6683bd136e0bf82f79444250640",
+      "ext": ".ts",
+      "mtimeMs": 1784482616313
+    },
+    {
+      "path": "test/flow.test.ts",
+      "size": 5946,
+      "lines": 127,
+      "hash": "22fc3105636b0958255f47bf24346f55929303bc",
+      "ext": ".ts",
+      "mtimeMs": 1784456092723.0842
+    },
+    {
+      "path": "test/focus.test.ts",
+      "size": 2365,
+      "lines": 79,
+      "hash": "f912787ac5c0c38054847558f012a4e22480deaa",
+      "ext": ".ts",
+      "mtimeMs": 1783792966950.5808
+    },
+    {
+      "path": "test/globalConfig.test.ts",
+      "size": 3115,
+      "lines": 87,
+      "hash": "c687903d02c9d2879e16b2be00671fdcc647bb33",
+      "ext": ".ts",
+      "mtimeMs": 1784482616314.0615
+    },
+    {
+      "path": "test/indexer.test.ts",
+      "size": 2229,
+      "lines": 56,
+      "hash": "3fdb7a6e18e5cd758c7dddd861949bb9c0e0132a",
+      "ext": ".ts",
+      "mtimeMs": 1784482616311.5024
+    },
+    {
+      "path": "test/interpret.test.ts",
+      "size": 1814,
+      "lines": 35,
+      "hash": "35e59abfba6e8bcfdb08d5b12fc82f739c77d9b1",
+      "ext": ".ts",
+      "mtimeMs": 1784482659138.4297
+    },
+    {
+      "path": "test/manifest.test.ts",
+      "size": 3289,
+      "lines": 82,
+      "hash": "011aed387de3b4cedc73997777916bd152a2ac7d",
+      "ext": ".ts",
+      "mtimeMs": 1784482616310.7446
+    },
+    {
+      "path": "test/mapper.test.ts",
+      "size": 2330,
+      "lines": 69,
+      "hash": "d72cfcb9b381bcc3bb0a2a1c408e56cac4396607",
+      "ext": ".ts",
+      "mtimeMs": 1784482616311.4106
+    },
+    {
+      "path": "test/memory.test.ts",
+      "size": 3510,
+      "lines": 89,
+      "hash": "bd83e7d9993935db201a2c850f65e1bad7bf357e",
+      "ext": ".ts",
+      "mtimeMs": 1784482616314.2458
+    },
+    {
+      "path": "test/mentions.test.ts",
+      "size": 4890,
+      "lines": 124,
+      "hash": "8e4e2b3049849df21472fabecb1bb00635be8d05",
+      "ext": ".ts",
+      "mtimeMs": 1784482616314.6711
+    },
+    {
+      "path": "test/paths.test.ts",
+      "size": 2798,
+      "lines": 72,
+      "hash": "5e1a3600a60b2e0d55eea37abe8efd9d476ee84d",
+      "ext": ".ts",
+      "mtimeMs": 1784482542251.1433
+    },
+    {
+      "path": "test/preflight.test.ts",
+      "size": 2938,
+      "lines": 64,
+      "hash": "160d0914ebc4c8ea2e1222cbb6d173b397b5eed6",
+      "ext": ".ts",
+      "mtimeMs": 1784482616313.25
+    },
+    {
+      "path": "test/ranking.test.ts",
+      "size": 10104,
+      "lines": 221,
+      "hash": "74634d44d890c8aa79e62602326018875e8cd339",
+      "ext": ".ts",
+      "mtimeMs": 1784482616314.4873
+    },
+    {
+      "path": "test/rules.test.ts",
+      "size": 5546,
+      "lines": 124,
+      "hash": "b47917254c4ecf0347e0547414015dc2de8528da",
+      "ext": ".ts",
+      "mtimeMs": 1784482659112.463
+    },
+    {
+      "path": "test/search.test.ts",
+      "size": 2303,
+      "lines": 62,
+      "hash": "ec5f6b170533cec59d16a7d5eb4c141f879377f5",
+      "ext": ".ts",
+      "mtimeMs": 1784482616312.4648
+    },
+    {
+      "path": "test/selector.test.ts",
+      "size": 3673,
+      "lines": 96,
+      "hash": "e7d44ef782db101724fb817cc01a38b9e791d11e",
+      "ext": ".ts",
+      "mtimeMs": 1784482616314.8503
+    },
+    {
+      "path": "test/semantic.test.ts",
+      "size": 5296,
+      "lines": 133,
+      "hash": "b79f2a8da3d2a841f1c912a1a84b763993712ee6",
+      "ext": ".ts",
+      "mtimeMs": 1784132247363.244
+    },
+    {
+      "path": "test/session.test.ts",
+      "size": 2017,
+      "lines": 59,
+      "hash": "e33d135df46b644429145129cfc8a4e12b03d0f8",
+      "ext": ".ts",
+      "mtimeMs": 1783792966956.039
+    },
+    {
+      "path": "test/sessionInput.test.ts",
+      "size": 9428,
+      "lines": 219,
+      "hash": "e600b7688a94542bed6eba8f00e470afd5ee52a1",
+      "ext": ".ts",
+      "mtimeMs": 1784482616313.971
+    },
+    {
+      "path": "test/skills.test.ts",
+      "size": 4135,
+      "lines": 98,
+      "hash": "cdca973cd6fdf472d447c1cba9ec563374dbf4d4",
+      "ext": ".ts",
+      "mtimeMs": 1784482598264.9114
+    },
+    {
+      "path": "test/surgicalRevert.test.ts",
+      "size": 2463,
+      "lines": 49,
+      "hash": "0a3f2e3a00c404567ffeb230c1b9a8a5a3e4a7f0",
+      "ext": ".ts",
+      "mtimeMs": 1784307423082.5166
+    },
+    {
+      "path": "test/telemetry.test.ts",
+      "size": 5838,
+      "lines": 151,
+      "hash": "6f81a7b29d68928d4345fc124bdf39b0e6d82024",
+      "ext": ".ts",
+      "mtimeMs": 1784482616310.8513
+    },
+    {
+      "path": "test/tools.test.ts",
+      "size": 3407,
+      "lines": 83,
+      "hash": "f57b38520a67c211642da5db3f393e5b84bce6f3",
+      "ext": ".ts",
+      "mtimeMs": 1784482616313.612
+    },
+    {
+      "path": "test/understanding.test.ts",
+      "size": 12903,
+      "lines": 303,
+      "hash": "46a06be547c6fa317c8fc088945bd34eb31f9783",
+      "ext": ".ts",
+      "mtimeMs": 1784482616312.7385
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 310,
+      "lines": 15,
+      "hash": "c66665bee9903f77023c33d3e20a89d5546b48a9",
+      "ext": ".json",
+      "mtimeMs": 1783696860731.8071
+    },
+    {
+      "path": "tsup.config.ts",
+      "size": 151,
+      "lines": 9,
+      "hash": "6c3883eb4b0d95e011d92ff8aa80d55e4509d5ef",
+      "ext": ".ts",
+      "mtimeMs": 1783792966962.3794
+    },
+    {
+      "path": "vitest.config.ts",
+      "size": 404,
+      "lines": 11,
+      "hash": "be8f512fdb8948a993b645c4ae2460606e173bc4",
+      "ext": ".ts",
+      "mtimeMs": 1784482676014.734
+    }
+  ]
+}
